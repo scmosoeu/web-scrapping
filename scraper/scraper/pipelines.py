@@ -9,7 +9,7 @@ from itemadapter import ItemAdapter
 
 # Import mysql connector
 import mysql.connector
-import credentials
+from scraper import credentials
 
 
 class ScraperPipeline:
